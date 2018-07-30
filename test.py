@@ -1,7 +1,7 @@
 
 
 def testApp(a):
-    a=a+2
+    a=a+2+1 #create conflict by adding +1 in master
     return a
 a=1
 a=a+1
