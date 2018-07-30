@@ -3,7 +3,7 @@
 # test on site
 
 def testApp(a):
-    a=a+2+1 #create conflict by adding +1 in master
+    a=a+2+1+3 #create conflict by adding +3 in login
     return a
 a=1
 a=a+1
